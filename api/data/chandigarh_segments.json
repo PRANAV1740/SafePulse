@@ -1,0 +1,58 @@
+{
+  "attribution": "Road-segment reference geometry derived from OpenStreetMap, (c) OpenStreetMap contributors (ODbL).",
+  "provenance": {
+    "source_type": "real_reference",
+    "source": "OpenStreetMap",
+    "note": "Approximate representative points and endpoints for core Chandigarh road corridors used in the demo. Every segment is flagged verified=false with an empty osm_ref; replace with a verified OSM way export (populate osm_ref and endpoints) before non-demo use. No segment here is a fabricated/authoritative source."
+  },
+  "segments": [
+    {
+      "id": "madhya-marg-16-17", "name": "Madhya Marg (Sector 16/17)", "osm_ref": "",
+      "rep_lat": 30.7445, "rep_lon": 76.7850,
+      "start": [30.7458, 76.7792], "end": [30.7432, 76.7908],
+      "near_landmarks": ["sector-17-plaza", "rose-garden"], "verified": false
+    },
+    {
+      "id": "jan-marg-9-17", "name": "Jan Marg (near Sector 17)", "osm_ref": "",
+      "rep_lat": 30.7402, "rep_lon": 76.7855,
+      "start": [30.7470, 76.7848], "end": [30.7338, 76.7862],
+      "near_landmarks": ["sector-17-plaza"], "verified": false
+    },
+    {
+      "id": "dakshin-marg-35", "name": "Dakshin Marg (Sector 35)", "osm_ref": "",
+      "rep_lat": 30.7262, "rep_lon": 76.7700,
+      "start": [30.7300, 76.7612], "end": [30.7224, 76.7788],
+      "near_landmarks": ["sector-35-market"], "verified": false
+    },
+    {
+      "id": "vigyan-path-pu", "name": "Vigyan Path (Panjab University)", "osm_ref": "",
+      "rep_lat": 30.7600, "rep_lon": 76.7670,
+      "start": [30.7620, 76.7640], "end": [30.7582, 76.7702], "verified": false,
+      "near_landmarks": ["panjab-university"]
+    },
+    {
+      "id": "udyog-path-22", "name": "Udyog Path (Sector 22)", "osm_ref": "",
+      "rep_lat": 30.7388, "rep_lon": 76.7772,
+      "start": [30.7430, 76.7768], "end": [30.7348, 76.7778],
+      "near_landmarks": ["sector-22-market", "sector-17-plaza"], "verified": false
+    },
+    {
+      "id": "purv-marg-elante", "name": "Purv Marg (near Elante)", "osm_ref": "",
+      "rep_lat": 30.7070, "rep_lon": 76.8000,
+      "start": [30.7102, 76.7960], "end": [30.7038, 76.8040],
+      "near_landmarks": ["elante-mall"], "verified": false
+    },
+    {
+      "id": "uttar-marg-pgi", "name": "Uttar Marg (near PGIMER)", "osm_ref": "",
+      "rep_lat": 30.7650, "rep_lon": 76.7760,
+      "start": [30.7660, 76.7720], "end": [30.7640, 76.7800],
+      "near_landmarks": ["pgimer"], "verified": false
+    },
+    {
+      "id": "lakeside-road", "name": "Sukhna Lakeside Road", "osm_ref": "",
+      "rep_lat": 30.7430, "rep_lon": 76.8150,
+      "start": [30.7450, 76.8110], "end": [30.7410, 76.8190],
+      "near_landmarks": ["sukhna-lake", "rock-garden"], "verified": false
+    }
+  ]
+}

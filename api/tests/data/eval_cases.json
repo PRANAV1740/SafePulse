@@ -1,0 +1,47 @@
+{
+  "note": "Evaluation cases carry provenance so results can be reported separately per source type. Synthetic cases are generated for testing and must never be treated as live verified incidents.",
+  "cases": [
+    {
+      "location_id": "sector-17-plaza",
+      "text": "Large pothole near Sector 17 Plaza on the main road",
+      "language": "en",
+      "expected_hazard": "pothole",
+      "provenance": {"source_type": "synthetic", "source": "generated-for-test", "note": "authored test case"}
+    },
+    {
+      "location_id": "sector-35-market",
+      "text": "Waterlogging reported in Sector 35 market after rain",
+      "language": "en",
+      "expected_hazard": "waterlogging",
+      "provenance": {"source_type": "synthetic", "source": "generated-for-test", "note": "authored test case"}
+    },
+    {
+      "location_id": "panjab-university",
+      "text": "Fallen tree branch blocking road near Panjab University",
+      "language": "en",
+      "expected_hazard": "fallen_tree",
+      "provenance": {"source_type": "real_reference", "source": "OpenStreetMap:panjab-university", "note": "landmark verified against bundled gazetteer; incident text is illustrative"}
+    },
+    {
+      "location_id": "elante-mall",
+      "text": "Broken traffic signal near Elante Mall",
+      "language": "en",
+      "expected_hazard": "broken_signal",
+      "provenance": {"source_type": "consent_based", "source": "pilot-volunteer-001", "note": "paraphrased with reporter consent"}
+    },
+    {
+      "location_id": "sector-22-market",
+      "text": "Sector 22 ke paas gaddha hai road par",
+      "language": "hi",
+      "expected_hazard": "pothole",
+      "provenance": {"source_type": "synthetic", "source": "generated-for-test", "note": "authored Hindi test case"}
+    },
+    {
+      "location_id": "pgimer",
+      "text": "PGI de nede road te malba pia hai",
+      "language": "pa",
+      "expected_hazard": "debris",
+      "provenance": {"source_type": "synthetic", "source": "generated-for-test", "note": "authored Punjabi test case"}
+    }
+  ]
+}

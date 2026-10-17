@@ -1,0 +1,20 @@
+{
+  "attribution": "Landmark reference points derived from OpenStreetMap, (c) OpenStreetMap contributors (ODbL).",
+  "provenance": {
+    "source_type": "real_reference",
+    "source": "OpenStreetMap",
+    "note": "Approximate reference coordinates for well-known Chandigarh landmarks. Each entry is flagged verified=false and MUST be replaced with a verified OSM export before any non-demo use. Values are NOT authoritative."
+  },
+  "landmarks": [
+    {"id": "sector-17-plaza", "name": "Sector 17 Plaza", "aliases": ["Sector 17", "City Centre", "Sector 17 Market"], "lat": 30.7410, "lon": 76.7822, "verified": false},
+    {"id": "sector-22-market", "name": "Sector 22 Market", "aliases": ["Sector 22", "Shastri Market"], "lat": 30.7395, "lon": 76.7760, "verified": false},
+    {"id": "rock-garden", "name": "Rock Garden", "aliases": ["Nek Chand Rock Garden"], "lat": 30.7525, "lon": 76.8106, "verified": false},
+    {"id": "sukhna-lake", "name": "Sukhna Lake", "aliases": ["Sukhna"], "lat": 30.7421, "lon": 76.8188, "verified": false},
+    {"id": "rose-garden", "name": "Zakir Hussain Rose Garden", "aliases": ["Rose Garden", "Sector 16 Garden"], "lat": 30.7478, "lon": 76.7914, "verified": false},
+    {"id": "pgimer", "name": "PGIMER", "aliases": ["PGI", "Sector 12 Hospital"], "lat": 30.7645, "lon": 76.7752, "verified": false},
+    {"id": "elante-mall", "name": "Elante Mall", "aliases": ["Elante", "Industrial Area Phase 1"], "lat": 30.7064, "lon": 76.8012, "verified": false},
+    {"id": "isbt-43", "name": "ISBT Sector 43", "aliases": ["Sector 43 Bus Stand", "ISBT 43"], "lat": 30.7076, "lon": 76.7670, "verified": false},
+    {"id": "sector-35-market", "name": "Sector 35 Market", "aliases": ["Sector 35"], "lat": 30.7268, "lon": 76.7686, "verified": false},
+    {"id": "panjab-university", "name": "Panjab University", "aliases": ["PU", "Sector 14"], "lat": 30.7603, "lon": 76.7664, "verified": false}
+  ]
+}
